@@ -1,0 +1,45 @@
+body{
+  max-width: 1024px;
+  background-color: #CCC;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  overflow-x: hidden;
+}
+.div_fun{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+}
+label{
+  font-size: 20px;
+}
+.div_fun input{
+  text-align: center;
+  margin: 5px;
+}
+.score input{
+  margin: 10px;
+}
+div .legenda{
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.container_name{
+  display: block;
+  margin: auto;
+  align: center;
+  padding: 20px;
+}
+@media screen and (max-width: 575px) {
+  .legenda{
+    order: 1;
+    padding-left: 30px;
+  }
+  .div_fun{
+    order: 12;
+    padding-left: 30px;
+  }
+}

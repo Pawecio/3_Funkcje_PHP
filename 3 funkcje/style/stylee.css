@@ -1,0 +1,33 @@
+body{
+  max-width: 1024px;
+  background-color: #CCC;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+}
+.container_name{
+  display: block;
+  margin: auto;
+  align: center;
+  padding: 20px;
+}
+div .container_but{
+  justify-content: center;
+}
+div .container_but form input{
+  padding: 13px;
+  margin: 20px;
+}
+div .container_name form input{
+  padding: 7px;
+  margin: 5px;
+}
+div .container_but form {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+a:hover{
+  text-decoration: none;
+}
